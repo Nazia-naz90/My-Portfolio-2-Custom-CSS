@@ -1,5 +1,6 @@
 "use client";
 
+import { div } from "framer-motion/client";
 import Link from "next/link";
 import { useEffect } from "react";
 import { FaLinkedin, FaWhatsapp, FaGithub } from "react-icons/fa"; 
@@ -33,6 +34,7 @@ const FooterSection = () => {
   }, []);
 
   return (
+    <div className="main">
     <footer className="footer">
       <h3 className="text-white pt-4" data-aos="fade-up">
         Portfolio
@@ -66,6 +68,7 @@ const FooterSection = () => {
         <i className="bi bi-arrow-up"></i>
       </button>
     </footer>
+    </div>
   );
 };
 

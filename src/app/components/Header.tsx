@@ -1,5 +1,6 @@
 "use client";
 
+import { div } from 'framer-motion/client';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
@@ -11,6 +12,8 @@ const Header = () => {
   };
 
   return (
+    <>
+    <div className='main'>
     <nav className="navbar">
       <Link href="/" legacyBehavior>
         <a className="navbar-brand">NZ</a>
@@ -42,6 +45,10 @@ const Header = () => {
         
       </div>
     </nav>
+
+    </div>
+        </>
+    
   );
 };
 

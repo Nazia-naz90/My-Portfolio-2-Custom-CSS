@@ -33,6 +33,9 @@ const ContactSection = () => {
   }, []);
 
   return (
+    <>
+    <div className="main">
+ 
     <section className="contact py-5" id="contact">
       <div className="heading text-center">
         <small>Get in Touch</small>
@@ -123,6 +126,10 @@ const ContactSection = () => {
         <i className="bi bi-arrow-up"></i>
       </button>
     </section>
+
+    </div>
+    </>
+    
   );
 };
 

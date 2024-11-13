@@ -1,8 +1,11 @@
+import { div } from 'framer-motion/client';
 import React from 'react';
 import { FaPaintBrush, FaUserAlt, FaMobileAlt } from 'react-icons/fa';
 
 const Expertise = () => {
   return (
+    <>
+    <div className='main'>
     <section className="expertise" id="service">
       <div className="heading">
         <small>My Expertise</small>
@@ -52,6 +55,8 @@ const Expertise = () => {
         </div>
       </div>
     </section>
+    </div>
+    </>
   );
 };
 

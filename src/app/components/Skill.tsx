@@ -10,7 +10,10 @@ const SkillSection = () => {
   }, []);
 
   return (
-    <section className="skill mt-5 py-5" id="about">
+<>
+<div className='main'>
+
+<section className="skill mt-5 py-5" id="about">
   <div className="row justify-content-evenly align-items-center">
     
     <div className="col-10 col-md-6 skill-with-progress" data-aos="slide-right">
@@ -78,8 +81,9 @@ const SkillSection = () => {
       </div>
     </div>
   </div>
-</section>
-
+</section>   
+</div>
+</>
   );
 };
 
